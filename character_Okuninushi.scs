@@ -1,0 +1,27 @@
+character_Okuninushi
+        => nrel_main_idtf: 
+            [Окуниноши] (* <-lang_ru;; *);
+		  [Okuninushi] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Окуниноши)] (* <-lang_ru;; *);
+				[Description of character(Okuninushi)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Okuninushi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Okuninushi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Окуниноши)](*<-lang_ru;;*);
+		[Pic. (Okuninushi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	 *);
+
+=>nrel_father: character_Susanoo;
+=>nrel_paired_with: character_Sukunabikona;;

@@ -1,0 +1,31 @@
+character_Tsukuyomi
+        => nrel_main_idtf: 
+            [Цукиёми] (* <-lang_ru;; *);
+		  [Tsukuyomi] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Цукиёми)] (* <-lang_ru;; *);
+				[Description of character(Tsukuyomi)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Tsukuyomi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Tsukuyomi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Цукиёми)](*<-lang_ru;;*);
+		[Pic. (Tsukuyomi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	 *);
+
+=>nrel_father: character_Izanagi;
+=>nrel_mother: character_Izanami;
+=>nrel_sibling: character_Susanoo;
+=>nrel_sibling: character_Amaterasu;
+
+=>rrel_one_of_rulers: concept_Takamagahara;;

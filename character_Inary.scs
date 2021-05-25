@@ -1,0 +1,30 @@
+character_Inary
+        => nrel_main_idtf: 
+            [Инари] (* <-lang_ru;; *);
+		  [Inary] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Инари)] (* <-lang_ru;; *);
+				[Description of character(Inary)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Inary_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Inary_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Инари)](*<-lang_ru;;*);
+		[Pic. (Inary)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+     (*
+		->"file://IMG/character_Inary_image.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+	 *);
+
+=>nrel_wife: character_Ukemochi;
+=>nrel_messenger: character_Kitsune;;

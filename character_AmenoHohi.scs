@@ -1,0 +1,29 @@
+character_AmenoHohi
+        => nrel_main_idtf: 
+            [Аме но Хохи] (* <-lang_ru;; *);
+		  [AmenoHohi] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Аме но Хохи)] (* <-lang_ru;; *);
+				[Description of character(AmenoHohi)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_AmenoHohi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_AmenoHohi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Аме но Хохи)](*<-lang_ru;;*);
+		[Pic. (AmenoHohi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	 *);
+
+=>nrel_mother: character_Amaterasu;
+=>nrel_father: character_Susanoo;
+=>nrel_sibling: character_Amatsuhikone;
+=>nrel_sibling: character_AmenoOshihimimi;;

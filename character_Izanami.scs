@@ -1,0 +1,33 @@
+character_Izanami
+        => nrel_main_idtf: 
+            [Изанами] (* <-lang_ru;; *);
+		  [Izanami] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Изанами)] (* <-lang_ru;; *);
+				[Description of character(Izanami)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Izanami_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Izanami_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Изанами)](*<-lang_ru;;*);
+		[Pic. (Izanami)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+     (*
+		->"file://IMG/character_Izanami_image.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+	 *);
+
+=>nrel_child: character_Susanoo;
+=>nrel_child: character_Amaterasu;
+=>nrel_child: character_Tsukuyomi;
+=>nrel_husband: character_Izanagi;
+=>nrel_belong_to: concept_kamiyonanayo;;

@@ -1,0 +1,32 @@
+myth_KuniYuzuri
+		<-concept_myth;
+        => nrel_main_idtf: 
+            [Куниюзури] (* <-lang_ru;; *);
+		  [KuniYuzuri] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа(Куниюзури)] (* <-lang_ru;; *);
+				[Description of myth(KuniYuzuri)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_KuniYuzuri_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/myth_KuniYuzuri_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_KuniYuzuri_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_KuniYuzuri_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);             
+
+=>nrel_character:
+    character_Susanoo;
+    character_Amaterasu;
+    character_Sukunahikona;
+	character_Izanagi;
+    character_Izanami;;

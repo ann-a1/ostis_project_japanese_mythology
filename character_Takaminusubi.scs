@@ -1,0 +1,28 @@
+character_Takaminusubi
+        => nrel_main_idtf: 
+            [Такаминусуби] (* <-lang_ru;; *);
+		  [Takaminusubi] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Такаминусуби)] (* <-lang_ru;; *);
+				[Description of character(Takaminusubi)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Takaminusubi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Takaminusubi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Такаминусуби)](*<-lang_ru;;*);
+		[Pic. (Takaminusubi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	 *);
+
+=>nrel_belong_to: concept_Kotoamatsukami;
+=>nrel_grandchild: character_AmenoFutodama;
+=>nrel_son: character_Omoikane;;

@@ -1,0 +1,28 @@
+character_Kamimisubi
+        => nrel_main_idtf: 
+            [Камимисуби] (* <-lang_ru;; *);
+		  [Kamimisubi] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Камимисуби)] (* <-lang_ru;; *);
+				[Description of character(Kamimisubi)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Kamimisubi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Kamimisubi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Камимисуби)](*<-lang_ru;;*);
+		[Pic. (Kamimisubi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	 *);
+
+=>nrel_belong_to: concept_Kotoamatsukami;
+=>nrel_grandson: character_AmenoTajikarao;
+=>nrel_son: character_AmenoKoyane;;

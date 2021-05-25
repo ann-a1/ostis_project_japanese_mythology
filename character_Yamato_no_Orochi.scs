@@ -1,0 +1,26 @@
+character_Yamato_no_Orochi
+        => nrel_main_idtf: 
+            [Ямато но Орочи] (* <-lang_ru;; *);
+		  [Yamato_no_Orochi] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Ямато но Орочи)] (* <-lang_ru;; *);
+				[Description of character(Yamato_no_Orochi)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Yamato_no_Orochi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Yamato_no_Orochi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ямато но Орочи)](*<-lang_ru;;*);
+		[Pic. (Yamato_no_Orochi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	 *);
+
+=>nrel_Belong_to: Yokai;;

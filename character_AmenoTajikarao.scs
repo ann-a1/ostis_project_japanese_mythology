@@ -1,0 +1,26 @@
+character_AmenoTajikarao
+        => nrel_main_idtf: 
+            [Ниниги] (* <-lang_ru;; *);
+		  [AmenoTajikarao] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Ниниги)] (* <-lang_ru;; *);
+				[Description of character(AmenoTajikarao)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_AmenoTajikarao_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_AmenoTajikarao_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ниниги)](*<-lang_ru;;*);
+		[Pic. (AmenoTajikarao)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	 *);
+
+=>nrel_grandmother: character_Kamimisubu;;

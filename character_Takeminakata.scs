@@ -1,0 +1,27 @@
+character_Takeminakata
+        => nrel_main_idtf: 
+            [Такеминаката] (* <-lang_ru;; *);
+		  [Takeminakata] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Такеминаката)] (* <-lang_ru;; *);
+				[Description of character(Takeminakata)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Takeminakata_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Takeminakata_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Такеминаката)](*<-lang_ru;;*);
+		[Pic. (Takeminakata)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	 *);
+
+=>nrel_father: character_Okuninushi;
+=>nrel_sibling: character_Kotoshironushi;;

@@ -1,0 +1,27 @@
+character_Hoori
+        => nrel_main_idtf: 
+            [Хоори] (* <-lang_ru;; *);
+		  [Hoori] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Хоори)] (* <-lang_ru;; *);
+				[Description of character(Hoori)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Hoori_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Hoori_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хоори)](*<-lang_ru;;*);
+		[Pic. (Hoori)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	 *);
+
+=>nrel_mother: character_Amaterasu;
+=>nrel_son: character_Hoori;;

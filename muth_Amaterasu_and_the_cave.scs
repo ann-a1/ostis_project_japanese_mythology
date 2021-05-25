@@ -1,0 +1,32 @@
+myth_Amaterasu_and_the_cave
+		<-concept_myth;
+        => nrel_main_idtf: 
+            [Аматерасу и пещера] (* <-lang_ru;; *);
+		  [Amaterasu_and_the_cave] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание мифа(Аматерасу и пещера)] (* <-lang_ru;; *);
+				[Description of myth(Amaterasu_and_the_cave)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/myth_Amaterasu_and_the_cave_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/myth_Amaterasu_and_the_cave_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/myth_Amaterasu_and_the_cave_text_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/myth_Amaterasu_and_the_cave_text_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);             
+
+=>nrel_character:
+	character_Amaterasu;
+    character_AmenoTajikarawo;
+    character_AmenoFutodama;
+    character_AmenoKoyane;
+    character_AmenoUzume;;

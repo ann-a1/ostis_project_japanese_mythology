@@ -1,0 +1,26 @@
+character_Toyokebime
+        => nrel_main_idtf: 
+            [Тоёкебиме] (* <-lang_ru;; *);
+		  [Toyokebime] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Тоёкебиме)] (* <-lang_ru;; *);
+				[Description of character(Toyokebime)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Toyokebime_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Toyokebime_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Тоёкебиме)](*<-lang_ru;;*);
+		[Pic. (Toyokebime)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	 *);
+
+=>nrel_grandfather: character_Izanagi;;

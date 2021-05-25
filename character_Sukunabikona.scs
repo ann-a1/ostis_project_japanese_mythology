@@ -1,0 +1,26 @@
+character_Sukunabikona
+        => nrel_main_idtf: 
+            [Сукунабикона] (* <-lang_ru;; *);
+		  [Sukunabikona] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Сукунабикона)] (* <-lang_ru;; *);
+				[Description of character(Sukunabikona)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/character_Sukunabikona_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Sukunabikona_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сукунабикона)](*<-lang_ru;;*);
+		[Pic. (Sukunabikona)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	 *);
+
+=>nrel_paired_with: character_Okuninushi;;
